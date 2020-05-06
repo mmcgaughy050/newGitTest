@@ -9,20 +9,21 @@
 import SwiftUI
 
 struct Buttons: View {
-    var buttonText = "Start"
+    var buttonText = "SUCK IT"
     var buttonColor = Color(.gray)
     
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 5)
+            RoundedRectangle(cornerRadius: 50)
                 .frame(width: 150, height: 55)
-                .foregroundColor(Color(.gray))
+                .foregroundColor(Color(.red))
                 .padding()
             Text(buttonText).bold()
         }
     }
 }
+
 
 
 struct Buttons_Previews: PreviewProvider {
