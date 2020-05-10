@@ -11,8 +11,8 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet var ImageView: UIImageView!
     var selectedImage: String?
-    var selectedPictureNumber = [0]
-    var totalPictures = [0]
+    var selectedPictureNumber = 0
+    var totalPictures = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
